@@ -1,10 +1,81 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>myProfile_Netlify 배포</title>
+
+    <style>
+      body{
+        background-color: #E0E6F8;
+      }
+
+      table{
+        width: 500px;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      tr{
+        height: 50px
+      }
+      th{
+        background-color: blueviolet;
+        color: white;
+      }
+      td{
+        border: 1px solid #444444;
+        border-collapse: collapse;
+      }
+
+      .ask{
+        text-align: center;
+        font-weight: bold;
+        background-color: white;
+      }
+      .answer{
+        text-indent: 2em;
+        color: #08088A;
+        background-color: white;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>My Profile</h1>
+    <br><br><br>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2"><h1>My Profile</h1></th>
+            </tr>
+            <tr style="height: 10px; background-color: #E0E6F8;"></tr>
+            <tr>
+                <td class="ask">이름(한글)</td>
+                <td class="answer">안태연</td>
+            </tr>
+            <tr>
+                <td class="ask">이름(한문)</td>
+                <td class="answer">安泰沿</td>
+            </tr>
+            <tr>
+                <td class="ask">이름(영문)</td>
+                <td class="answer">An Tae Yeon</td>
+            </tr>
+            <tr>
+                <td class="ask">학교</td>
+                <td class="answer">동덕여자대학교</td>
+            </tr>
+            <tr>
+                <td class="ask">학과</td>
+                <td class="answer">컴퓨터학과</td>
+            </tr>
+            <tr>
+                <td class="ask">자기소개</td>
+                <td class="answer">안녕하세요. 안태연입니다.<br></td>
+            </tr>
+        </table>
+    </div>
+    </body>
+
+  </div>
   </body>
 </html>
